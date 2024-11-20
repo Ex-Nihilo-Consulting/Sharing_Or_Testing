@@ -54,7 +54,7 @@ ul {
 }
 
 .main__content {
-  max-width: 900px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,9 +70,9 @@ ul {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 374px) {
   .main__content {
-    padding: 3rem 0.5rem;
+    padding: 3rem 0.7rem;
     gap: 2rem;
   }
 }
@@ -87,6 +87,12 @@ ul {
 @media only screen and (max-width: 600px) {
   .main__title {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .main__title {
+    gap: 1.5rem;
   }
 }
 
