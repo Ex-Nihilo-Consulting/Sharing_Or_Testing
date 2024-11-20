@@ -54,6 +54,7 @@ ul {
 }
 
 .main__content {
+  width: 100%;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
@@ -65,15 +66,14 @@ ul {
 
 @media only screen and (max-width: 600px) {
   .main__content {
-    padding: 3rem 2rem;
+    padding: 3rem 3rem;
     gap: 2rem;
   }
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 400px) {
   .main__content {
-    padding: 3rem 0.7rem;
-    gap: 2rem;
+    padding: 3rem 1rem;
   }
 }
 
@@ -90,9 +90,9 @@ ul {
   }
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 370px) {
   .main__title {
-    gap: 1.5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -112,6 +112,12 @@ ul {
   .main__section {
     font-size: 1rem;
     padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .main__section {
+    font-size: 0.8rem;
   }
 }
 
